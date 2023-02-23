@@ -1,0 +1,5 @@
+package com.example.demo.StudentExample.repository;
+
+public interface repo {
+
+}

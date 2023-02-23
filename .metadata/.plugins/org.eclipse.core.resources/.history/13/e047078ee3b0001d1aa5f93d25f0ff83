@@ -1,0 +1,20 @@
+package com.example.demo.controler;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class AppController {
+	@RequestMapping("/")
+	public String handlerMethod()
+	{
+		return "Welcome";
+	}
+	@RequestMapping("/login")
+	public String handlerMethod2()
+	{
+		return "Login";
+	}
+
+}

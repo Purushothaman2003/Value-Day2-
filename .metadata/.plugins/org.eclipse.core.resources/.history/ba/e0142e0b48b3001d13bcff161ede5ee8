@@ -1,0 +1,14 @@
+package com.example.demo.StudentExample.repository;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.StudentExample.model.model;
+
+@Repository
+public interface repo {
+	
+	List<model>findAll();
+	
+}

@@ -1,0 +1,31 @@
+package com.example.demo.StudentExample.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.StudentExample.model.model;
+import com.example.demo.StudentExample.repository.repo;
+
+@RestController
+public class controller {
+	repo rr;
+	
+	@GetMapping("/getdata")
+	List<model>get(){
+		return rr.findAll();
+	}
+	@PostMapping("/post")
+	public model create(@RequestBody model d) {
+		return rr.save(d);
+	}
+	
+	@PutMapping("/put")
+	public model update(@RequestBody model dd) {
+	return rr.saveAndFlush(dd);
+	}
+}

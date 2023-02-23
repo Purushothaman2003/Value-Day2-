@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\purus\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1117537115.index
+\ColorChanger\src\main\java
+C:\Users\purus\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\855400654.index
+\Day1(Welcome)\src\main\java
+C:\Users\purus\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\240396150.index
+\demo\src\main\java
+C:\Users\purus\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4009181573.index
+\Day1and2\src\main\java
+C:\Users\purus\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\96475056.index
+\welcome\src\main\java
